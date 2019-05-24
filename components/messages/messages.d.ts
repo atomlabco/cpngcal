@@ -1,7 +1,7 @@
 import { OnDestroy, EventEmitter } from '@angular/core';
 import { Message } from '../common/message';
 import { MessageService } from '../common/messageservice';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 export declare class Messages implements OnDestroy {
     messageService: MessageService;
     value: Message[];

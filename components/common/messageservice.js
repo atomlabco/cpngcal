@@ -7,24 +7,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Subject_1 = require("rxjs/Subject");
+//var Subject_1 = require("rxjs/Subject");
 var MessageService = (function () {
     function MessageService() {
-        this.messageSource = new Subject_1.Subject();
-        this.messageObserver = this.messageSource.asObservable();
+        //this.messageSource = new Subject_1.Subject();
+        //this.messageObserver = this.messageSource.asObservable();
     }
     MessageService.prototype.add = function (message) {
         if (message) {
-            this.messageSource.next(message);
+            //this.messageSource.next(message);
         }
     };
     MessageService.prototype.addAll = function (messages) {
         if (messages && messages.length) {
-            this.messageSource.next(messages);
+            //this.messageSource.next(messages);
         }
     };
     MessageService.prototype.clear = function () {
-        this.messageSource.next(null);
+        //this.messageSource.next(null);
     };
     return MessageService;
 }());
