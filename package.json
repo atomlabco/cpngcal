@@ -46,7 +46,7 @@
     "@angular/router": "4.4.4",
     "@types/jasmine": "2.5.54",
     "@types/node": "6.0.88",
-    "chart.js": "2.1.3",
+    "chart.js": "2.9.4",
     "codelyzer": "3.1.2",
     "core-js": "2.5.1",
     "del": "^2.2.0",
