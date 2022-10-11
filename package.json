@@ -33,7 +33,7 @@
   "description": "[![Travis](https://travis-ci.org/primefaces/primeng.svg?branch=master)](https://travis-ci.org/primefaces/primeng) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Join the chat at https://gitter.im/primefaces/primeng](https://badges.gitter.im/primefaces/primeng.svg)](https://gitter.im/primefaces/primeng?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
   "devDependencies": {
     "@angular/animations": "4.4.4",
-    "@angular/cli": "1.4.3",
+    "@angular/cli": "1.7.4",
     "@angular/common": "4.4.4",
     "@angular/compiler": "4.4.4",
     "@angular/compiler-cli": "4.4.4",
